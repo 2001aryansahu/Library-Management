@@ -108,7 +108,6 @@ public class MainActivity extends AppCompatActivity {
     }
     @Override
     public void finish() {
-        super.finish();
-        overridePendingTransition(R.anim.close_in, R.anim.close_out);
+
     }
 }
